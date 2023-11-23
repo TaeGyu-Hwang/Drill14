@@ -4,3 +4,6 @@
 boy = None
 background = None
 
+# 추가: 경기장의 크기를 전역 변수로 저장
+background_width = 0
+background_height = 0

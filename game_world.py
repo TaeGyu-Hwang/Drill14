@@ -75,3 +75,8 @@ def handle_collisions():
         a.handle_collision(group, b)
         b.handle_collision(group, a)
 
+def all_objects():
+    result = []
+    for layer_objects in objects:
+        result.extend(layer_objects)
+    return result
